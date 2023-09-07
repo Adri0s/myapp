@@ -17,7 +17,6 @@ import java.util.List;
 @RequestMapping("product")
 public class myAppController {
     private static final String NOT_FOUND_ERROR_MSG = "Product Not Found";
-    private static final String UNEXPECTED_ERROR = "Unexpected Error";
 
     private myAppService service;
 
